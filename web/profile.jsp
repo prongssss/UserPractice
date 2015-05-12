@@ -18,13 +18,12 @@
         <title>Profile</title>
     </head>
     <body>
-        
-            
-            <a href="home.jsp">Home</a>
-            <a href="profile.jsp">Profile</a>
-            <a href="index.html">Logout</a>
-            <br>
-            <h1>Hello <%=session.getAttribute("username")%>!!!</h1>
+        <a href="home.jsp">Home</a> |
+        <a href="profile.jsp">Profile</a> |
+        <a href="user.jsp">Add User</a> |
+        <a href="index.html">Logout</a>
+        <br>
+        <h1>Hello <%=session.getAttribute("username")%>!!!</h1>
         
             
 </html>

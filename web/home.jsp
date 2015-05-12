@@ -39,8 +39,8 @@
                             <td><c:out value="${user.userid}"/></td>
                             <td><c:out value="${user.username}"/></td>
                             <td><c:out value="${user.password}"/></td>
-                            <td><a href="UserControllerServlet?action=edit&userid=<c:out value="${user.userid}"/>">Edit</a></td>
-                            <td><a href="UserControllerServlet?action=delete&userid=<c:out value="${user.userid}"/>">Delete</a></td>
+                            <td><a href="UserController?action=edit&userid=<c:out value="${user.userid}"/>">Edit</a></td>
+                            <td><a href="UserController?action=delete&userid=<c:out value="${user.userid}"/>" >Delete</a></td>
                         </tr>
                     </c:forEach>
                 </tbody>
